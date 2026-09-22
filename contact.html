@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Location | Vogue Salon</title>
+  <meta name="description" content="Contact Vogue Salon (Lakme Salon), Kanchan Bagh, Indore — address, phone, WhatsApp, opening hours and map." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💇</text></svg>" />
+  <link rel="stylesheet" href="css/theme.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="announcement-bar"></div>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <div id="contact-heading"></div>
+        <div class="location-section__grid">
+          <div class="contact-info-card" id="contact-info"></div>
+          <div class="map-embed" id="map-embed"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tinted">
+      <div class="container">
+        <div class="section-heading section-heading--center">
+          <span class="section-heading__eyebrow">Quick Enquiry</span>
+          <h2 class="section-heading__title">Send Us Your Details</h2>
+          <p class="section-heading__subtitle">This opens a pre-filled WhatsApp message to our salon — no account needed.</p>
+        </div>
+        <form id="enquiry-form" style="max-width:640px;margin:0 auto;display:grid;gap:16px;">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <input type="text" name="name" placeholder="Your Name" required style="padding:14px 16px;border:1.5px solid var(--color-border);border-radius:8px;font-family:inherit;" />
+            <input type="tel" name="phone" placeholder="Phone Number" required style="padding:14px 16px;border:1.5px solid var(--color-border);border-radius:8px;font-family:inherit;" />
+          </div>
+          <input type="text" name="service" placeholder="Service you're interested in (optional)" style="padding:14px 16px;border:1.5px solid var(--color-border);border-radius:8px;font-family:inherit;" />
+          <textarea name="message" rows="4" placeholder="Anything else we should know? (optional)" style="padding:14px 16px;border:1.5px solid var(--color-border);border-radius:8px;font-family:inherit;resize:vertical;"></textarea>
+          <button type="submit" class="btn btn--primary btn--lg">Send via WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div id="faq-heading"></div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <nav id="mobile-bottom-bar" class="mobile-bottom-bar"></nav>
+
+  <script type="module" src="js/contact.js"></script>
+  <script src="https://neuraldesk-api.duckdns.org/widget.js?botId=a212c356-4550-4b33-b47c-e7421ee1fa1b" defer></script>
+</body>
+</html>

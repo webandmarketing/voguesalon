@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webandmarketing.github.io/voguesalon/sitemap.xml
